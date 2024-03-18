@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #6911ea;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-collapse: collapse;
+    /* Memastikan batas sel tabel tidak terlihat */
+    
+
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.gambar-kiri {
+    position: absolute;
+    top: 150px;
+    /* Geser elemen ke bawah sebesar 20px */
+    left: 375px;
+    /* Geser elemen ke kanan sebesar 20px */
+
+    width: 10%;
+    height: 40%;
+    background-image: url('gambar/car1.png');
+    /* Ganti dengan URL gambar overlay Anda */
+    background-size: cover;
+
+}
+.gambar-tengah {
+    position: absolute;
+    top: 155px;
+    /* Geser elemen ke bawah sebesar 20px */
+    left: 615px;
+    /* Geser elemen ke kanan sebesar 20px */
+    
+
+    width: 10%;
+    height: 40%;
+    background-image: url('gambar/car2.png');
+    /* Ganti dengan URL gambar overlay Anda */
+    background-size: cover;
+
+}
+
+
+.gambar-kanan {
+    position: absolute;
+    top: 155px;
+    /* Geser elemen ke bawah sebesar 20px */
+    left: 850px;
+    /* Geser elemen ke kanan sebesar 20px */
+
+    width: 10%;
+    height: 40%;
+    background-image: url('gambar/car3.png');
+    /* Ganti dengan URL gambar overlay Anda */
+    background-size: cover;
+
+}
+
+
+/* .gambar-sampingbawah {
+    position: absolute;
+    top: 268px;
+    /* Geser elemen ke bawah sebesar 20px */
+    /* left: 295px; */
+    /* Geser elemen ke kanan sebesar 20px */
+
+   
+    /* width: 32%;
+    height: 10%; */
+    /* background-image: url('gambar/car4.png'); */
+    /* Ganti dengan URL gambar overlay Anda */
+    /* background-size: cover; */ 
+
+/* } */
+
